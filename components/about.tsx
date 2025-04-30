@@ -54,7 +54,7 @@ export default function About() {
                 LinkedIn
               </Button>
 
-              <Link href="https://drive.google.com/file/d/1Zh2nMPFRjk6tjLcFW93Whn-VDhgughvK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+              <Link href="https://drive.google.com/file/d/1Zh2nMPFRjk6tjLcFW93Whn-VDhgughvK/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-slate-700 hover:bg-slate-600 text-white">
                   <FileText className="mr-2 h-5 w-5" />
                   Descargar CV

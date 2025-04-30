@@ -7,8 +7,48 @@ import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Gustavo Adrián Paz | Portfolio",
-  description: "Ingeniero Mecánico | Desarrollador Web | Visualizador Arquitectónico",
+  title: "Gustavo Adrian Paz – Ingeniero Mecánico, Python, Diseño 3D, Renders.",
+  description: "Portfolio de Gustavo Adrian Paz, Ingeniero Mecánico en Argentina con experiencia en visualización arquitectónica 3D, diseño CAD, modelado 3D, impresión 3D, desarrollo con Python y automatización. Buscando nuevas oportunidades profesionales.",
+  keywords: [
+    "ingeniero mecánico",
+    "portfolio profesional",
+    "diseño 3D",
+    "SolidWorks",
+    "impresión 3D",
+    "automatización con Python",
+    "visualización arquitectónica",
+    "archviz",
+    "modelado CAD",
+    "desarrollo web",
+    "Next.js",
+    "Tailwind CSS",
+    "proyectos de ingeniería",
+    "Argentina",
+    "MAG Studio",
+    "Power BI",
+    "SAP MM",
+    "Arduino",
+    "MATLAB",
+    "diseño mecánico",
+    "fabricación aditiva",
+    "documentación técnica"
+  ]
+  ,
+  openGraph: {
+    title: "Gustavo Adrian Paz - Portfolio Profesional",
+    description: "Portfolio profesional de Gustavo Adrián Paz, Ingeniero Mecánico especializado en visualización 3D, CAD, Python y automatización.",
+    type: "website",
+    locale: "es_AR",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Portfolio de Gustavo Adrian Paz - Ingeniero Mecánico y Desarrollador"
+      }
+    ],
+    siteName: "Portfolio de Gustavo Adrian Paz"
+  }
 }
 
 export default function Home() {

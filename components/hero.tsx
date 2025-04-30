@@ -2,6 +2,7 @@
 import { motion } from "framer-motion"
 import { ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { SparklesCore } from "./sparkles-core"
 
 export default function Hero() {
   const scrollToSection = (id: string) => {
@@ -12,8 +13,17 @@ export default function Hero() {
   }
 
   return (
-    <section className="relative h-screen flex items-center justify-center bg-gradient-to-b from-slate-900 to-slate-800 text-white overflow-hidden">
-      <div className="absolute inset-0 bg-[url('/fondo-hero.jpg?height=1080&width=1920')] bg-cover bg-center opacity-10"></div>
+    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <div className="absolute inset-0 w-full h-full">
+        <SparklesCore
+          id="tsparticles"
+          background="#0f172a"
+          particleColor="#64748b"
+          particleDensity={100}
+          speed={1}
+          className="w-full h-full"
+        />
+      </div>
       <div className="container mx-auto px-4 z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -21,10 +31,10 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Gustavo Adrian Paz</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">Gustavo Adrian Paz</h1>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.8 }}>
             <p className="text-xl md:text-2xl text-slate-300 mb-8">
-              Ingeniero Mecánico | Desarrollador Python | Renderista Arquitectónico | Especialista en diseño e impresión 3D
+            Ingeniero Mecánico | Desarrollador Python | Renderista Arquitectónico | Modelado e impresión 3D
             </p>
           </motion.div>
           <motion.div
@@ -38,7 +48,7 @@ export default function Hero() {
               className="bg-slate-700 hover:bg-slate-600 text-white border border-slate-600"
               size="lg"
             >
-              Conóceme
+              Conoceme
             </Button>
             <Button
               onClick={() => scrollToSection("projects")}
@@ -54,7 +64,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2, duration: 0.8, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
-        className="absolute bottom-8"
+        className="absolute bottom-8 z-10"
       >
         <Button
           variant="ghost"

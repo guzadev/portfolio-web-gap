@@ -4,7 +4,8 @@ Este es mi sitio web personal donde presento mis habilidades, proyectos y experi
 
 - 👨‍🔧 Ingeniero Mecánico  
 - 👨‍💻 Desarrollador Python  
-- 🏠 Renderista Arquitectónico y Modelador 3D
+- 🏠 Renderista Arquitectónico 
+- 📦 Modelado e impresión 3D
 
 El objetivo de este sitio es centralizar mis proyectos, mostrar mi perfil profesional y facilitar el contacto con potenciales empleadores o clientes.
 
@@ -18,7 +19,7 @@ El objetivo de este sitio es centralizar mis proyectos, mostrar mi perfil profes
 
 ## 🔗 Sitio en línea
 
-👉 [Ver sitio publicado](https://tusitio.vercel.app)
+👉 [Ver sitio publicado](https://gustavopaz.vercel.app/)
 
 ## 📫 Contacto
 

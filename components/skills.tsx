@@ -5,25 +5,25 @@ import SectionTitle from "./section-title"
 
 const skillCategories = [
   {
-    title: "Programming",
+    title: "Programación",
     icon: <Code className="h-6 w-6" />,
-    skills: ["Python", "Django", "Flask", "SQL", "Numpy", "Pandas", "Matplotlib", "Seaborn", "JavaScript","Arduino", "MATLAB"],
+    skills: ["Python", "Django", "Flask", "SQL", "Numpy", "Pandas", "Matplotlib", "Seaborn", "JavaScript", "TypeScript", "Arduino", "MATLAB"],
     color: "bg-blue-500",
   },
   {
-    title: "Web & Tools",
+    title: "Herramientas Web",
     icon: <Layers className="h-6 w-6" />,
-    skills: ["Node.js", "Next.js", "Tailwind CSS", "Vercel", "Cursor", "Git & GitHub"],
+    skills: ["Node.js", "Next.js", "Tailwind CSS", "Aceternity UI", "Vercel",  "Render", "Replit", "Git & GitHub"],
     color: "bg-purple-500",
   },
   {
-    title: "3D & Visualization",
+    title: "Modelado 3D & Visualización",
     icon: <Cpu className="h-6 w-6" />,
-    skills: ["3ds Max", "Corona Renderer", "V-Ray", "SolidWorks", "Solid Edge", "3D Printing"],
+    skills: ["3ds Max", "Corona Renderer", "V-Ray", "SolidWorks", "Solid Edge", "AutoCAD", "3D Printing"],
     color: "bg-green-500",
   },
   {
-    title: "Data & Management",
+    title: "Datos y Gestión",
     icon: <Database className="h-6 w-6" />,
     skills: ["Power BI", "Tableau", "Jira", "Excel", "Word", "PowerPoint", "SAP MM", "GDE"],
     color: "bg-amber-500",
