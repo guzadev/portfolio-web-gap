@@ -13,11 +13,11 @@ const skillCategories = [
   {
     title: "Herramientas Web",
     icon: <Layers className="h-6 w-6" />,
-    skills: ["Node.js", "Next.js", "Tailwind CSS", "Aceternity UI", "Vercel",  "Render", "Replit", "Git & GitHub"],
+    skills: ["Node.js", "Next.js", "Tailwind CSS", "Aceternity UI", "Vercel",  "Render", "Replit", "Git y GitHub"],
     color: "bg-purple-500",
   },
   {
-    title: "Modelado 3D & Visualización",
+    title: "Diseño CAD y Visualización Arquitectónica",
     icon: <Cpu className="h-6 w-6" />,
     skills: ["3ds Max", "Corona Renderer", "V-Ray", "SolidWorks", "Solid Edge", "AutoCAD", "3D Printing"],
     color: "bg-green-500",
