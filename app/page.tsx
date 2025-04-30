@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   ,
   openGraph: {
     title: "Gustavo Adrian Paz - Portfolio Profesional",
-    description: "Portfolio profesional de Gustavo Adrián Paz, Ingeniero Mecánico especializado en visualización 3D, CAD, Python y automatización.",
+    description: "Portfolio profesional de Gustavo Paz, Ingeniero Mecánico con experiencia en automatización y desarrollo con Python, diseño CAD, impresión 3D y renders fotorrealistas.",
     type: "website",
     locale: "es_AR",
     images: [
