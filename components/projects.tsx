@@ -45,7 +45,7 @@ const projectCategories = [
         title: "MAG Studio",
         description: "La vida y mi pasión por el diseño me llevaron a descubrir el mundo de la visualización arquitectónica, una disciplina donde convergen técnica, estética y emoción. A partir de esta conexión, creé MAG Studio como proyecto personal, con el objetivo de desarrollar y mostrar mis habilidades en modelado 3D, renderizado y comunicación visual de espacios. Cada imagen que realizo busca transmitir realismo, intención y una experiencia visual que conecte con el espectador.",
         image: "/mag-studio.jpg?height=400&width=600",
-        link: "https://www.behance.net/magviz",
+        link: "https://magviz.vercel.app/",
       },
     ] as Project[],
   },
