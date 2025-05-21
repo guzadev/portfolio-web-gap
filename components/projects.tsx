@@ -62,8 +62,8 @@ const programmingProjects = {
       github: true,
     },
     {
-      title: "Bot de Trading EUR/USD | Rango Asiático + Ruptura + Reingreso",
-      description: "Desarrollo de un bot en Python para automatizar una estrategia de trading en el par EUR/USD, basada en fases de acumulación, manipulación y distribución. El bot detecta rupturas del rango asiático antes de la sesión europea (04:00 UTC) y alerta sobre posibles manipulaciones del mercado. Lo utilizo diariamente para anticipar oportunidades de entrada: cuando hay una ruptura y reingreso al rango, realizo un análisis manual para confirmar el cambio de estructura y validar la operación, guiado por la EMA 21.",
+      title: "Bot de Trading EUR/USD | Rango Asiático + Ruptura + Reingreso + Cruce de EMA 21",
+      description: "Desarrollé un bot en Python para automatizar parte de mi estrategia de trading en el par EUR/USD, basada en fases de acumulación, manipulación y distribución. El bot detecta rupturas del rango asiático y alerta si se produce un reingreso junto con cruce de la EMA 21, lo que puede indicar una manipulación institucional. Lo utilizo diariamente para anticipar posibles oportunidades: al recibir una señal, realizo un análisis manual para confirmar el cambio de estructura y reviso si hay zonas de liquidez relevantes u order blocks que refuercen la entrada.",
       image: "/bot.png?height=400&width=600",
       link: "https://github.com/guzadev/trading-bot-eurusd",
       github: true,
