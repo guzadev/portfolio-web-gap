@@ -207,8 +207,12 @@ export default function Projects() {
                       onClick={() => window.open(project.link, "_blank")}
                       className="w-full bg-slate-700 hover:bg-slate-600 text-white mt-auto"
                     >
-                      <Github className="mr-2 h-4 w-4" />
-                      Ver Proyecto
+                      {project.github ? (
+                        <Github className="mr-2 h-4 w-4" />
+                      ) : (
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                      )}
+                      {project.github ? "Ver Proyecto" : "Ver Proyectos de Automatización"}
                     </Button>
                   </div>
                 </motion.div>
@@ -225,6 +229,53 @@ export default function Projects() {
                 Ver Más Proyectos
               </Button>
             </div>
+          </div>
+
+          {/* Tercera fila: Automatización de procesos con IA */}
+          <div>
+            <h3 className="text-2xl font-semibold mb-6 text-slate-800 dark:text-white border-l-4 border-slate-700 pl-4">
+              Automatización de procesos con IA
+            </h3>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="group bg-slate-50 dark:bg-slate-800 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
+            >
+              <div className="flex flex-col md:flex-row">
+                <div className="md:w-2/5 relative overflow-hidden">
+                  <img
+                    src="/ai.png"
+                    alt="Automatización con IA: Sistemas conversacionales, pipelines y agentes"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    style={{ minHeight: "260px" }}
+                  />
+                </div>
+
+                <div className="md:w-3/5 p-6 flex flex-col justify-between">
+                  <div>
+                    <h4 className="text-xl font-semibold mb-2 text-slate-800 dark:text-white">
+                      Automatización con IA: Sistemas conversacionales, pipelines y agentes
+                    </h4>
+                    <p className="text-slate-600 dark:text-slate-300 mb-4">
+                      Me especializo en el diseño e implementación de sistemas de automatización con inteligencia artificial usando n8n como orquestador principal. Mis proyectos incluyen agentes conversacionales multicanal (WhatsApp, LinkedIn, Instagram, Gmail, Telegram), pipelines de calificación y onboarding de leads, integración bidireccional con CRMs como Odoo, HighLevel, Superchat e IPCall, validación documental con Vision IA, RAG sobre bases de conocimiento, y microservicios Python para extracción de datos. Cada sistema se construye con patrones de arquitectura definidos: buffer + mutex con PostgreSQL, agentes con responsabilidad única, CRM como fuente de verdad.
+                    </p>
+                  </div>
+
+                  <div className="flex justify-center">
+                    <Button
+                      onClick={() => window.open("https://ingap-ai.vercel.app/", "_blank")}
+                      className="bg-slate-700 hover:bg-slate-600 text-white"
+                    >
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Ver Proyectos de Automatización
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </div>

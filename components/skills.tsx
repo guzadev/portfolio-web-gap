@@ -7,13 +7,13 @@ const skillCategories = [
   {
     title: "Programación",
     icon: <Code className="h-6 w-6" />,
-    skills: ["Python", "Django", "Flask", "SQL", "Numpy", "Pandas", "Matplotlib", "Seaborn", "JavaScript", "TypeScript", "Arduino", "MATLAB"],
+    skills: ["Python", "Flask", "JavaScript", "TypeScript", "SQL", "Numpy", "Pandas", "Matplotlib", "Arduino", "MATLAB"],
     color: "bg-blue-500",
   },
   {
     title: "Herramientas Web",
     icon: <Layers className="h-6 w-6" />,
-    skills: ["Node.js", "Next.js", "Tailwind CSS", "Aceternity UI", "Vercel",  "Render", "Replit", "Git y GitHub"],
+    skills: ["Node.js", "Next.js", "Tailwind CSS", "Vercel", "Render", "Railway", "Git y GitHub"],
     color: "bg-purple-500",
   },
   {
@@ -23,9 +23,9 @@ const skillCategories = [
     color: "bg-green-500",
   },
   {
-    title: "Datos y Gestión",
+    title: "IA y Automatización",
     icon: <Database className="h-6 w-6" />,
-    skills: ["Power BI", "Tableau", "Jira", "Excel", "Word", "PowerPoint", "SAP MM", "GDE"],
+    skills: ["n8n", "OpenAI API", "Google Gemini API", "Supabase", "PostgreSQL", "Agentes multi-step", "WhatsApp Business API", "Telegram Bot API", "LinkedIn API (Unipile)", "Gmail API", "HighLevel", "Odoo", "Superchat", "IPCall"],
     color: "bg-amber-500",
   },
 ]

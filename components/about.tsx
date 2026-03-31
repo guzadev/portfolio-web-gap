@@ -39,10 +39,7 @@ export default function About() {
               Ingeniero con visión integral
             </h3>
             <p className="text-slate-700 dark:text-slate-300 mb-6 leading-relaxed">
-            Ingeniero Mecánico con perfil multidisciplinario y enfoque en resultados.
-            Experiencia en visualización arquitectónica, modelado e impresión 3D, programación en Python, gestión de proyectos y documentación técnica.
-            Apasionado por la mejora continua, combino creatividad, tecnología aplicada y pensamiento analítico para desarrollar soluciones efectivas.
-            Me definen la proactividad, el aprendizaje constante y la atención al detalle.
+            Ingeniero Mecánico con perfil multidisciplinario que hoy se especializa en el diseño e implementación de sistemas de automatización con inteligencia artificial. Diseño flujos que conectan canales de comunicación, CRMs y APIs externas con lógica de negocio real — desde agentes conversacionales y pipelines de calificación de leads hasta suites operativas completas. Mi formación en ingeniería no es un antecedente: es la base del pensamiento sistémico con el que abordo cada proyecto. Combino automatización, IA aplicada y atención al detalle para construir sistemas que operan de forma autónoma y generan impacto concreto.
             </p>
 
             <div className="flex flex-wrap items-center gap-4 mt-8">

@@ -34,7 +34,7 @@ export default function Hero() {
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">Gustavo Adrian Paz</h1>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.8 }}>
             <p className="text-xl md:text-2xl text-slate-300 mb-8">
-            Ingeniero Mecánico | Desarrollador Python | Renderista Arquitectónico | Modelado e impresión 3D
+            Ingeniero Mecánico | Ingeniero de Sistemas de Automatización con IA
             </p>
           </motion.div>
           <motion.div
